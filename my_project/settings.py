@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-njl&f(7z!qyyuaa%zi*hf-f7k1rd$o^h366732!7v(l)lnc(ox
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-vikicoding-djangoprojec-8sxp3aly6zt.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-vikicoding-djangoprojec-2hc9gwiig15.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello_world',
+    'about',
 ]
 
 MIDDLEWARE = [
